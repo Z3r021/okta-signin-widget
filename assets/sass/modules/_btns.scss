@@ -133,8 +133,10 @@
 }
 
 .social-auth-google-button {
-  @include social-auth-button-template(url('../img/icons/login/google_logo.png'),
-  $google-icon-bg-color, $google-label-bg-color, $google-border-color);
+  background-color: $google-icon-bg-color;
+  background: url('../img/icons/login/google_logo.png') no-repeat 12px;
+  background-size: 24px;
+  border: 1px solid $google-border-color;
 }
 
 .social-auth-google-button.link-button {
